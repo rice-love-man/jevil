@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>every one watch this</title>
+    <style>
+        body{
+            padding: 10px 10px;
+            background-color: darkgreen;
+            text-align: center;
+        }
+        button{
+            cursor: pointer;
+            font-size: 20px;
+            color: deepskyblue;
+            position: absolute;
+        }
+        a{
+            font-size: 25px;
+            text-indent: 3px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button id="button">みんなこれを見て</button>
+    <div id="area"></div>
+    <script>
+        const bt = document.getElementById("button")
+        const area = document.getElementById("area")
+        bt.style.left = "25%"
+        bt.style.top = "50%"
+        if (bt){
+            bt.addEventListener('click',()=>{
+                area.innerHTML = "<a href=https://music.youtube.com/watch?v=St7iqIzml18&si=kgxyt3FCQLpuoDLp>https://music.youtube.com/watch?v=St7iqIzml18&si=kgxyt3FCQLpuoDLp</a>"
+                alert("咆哮の騎士を倒したクリスはじぶんの勇者として拝みまshow！ by テナ")
+            })
+        }
+    </script>
+</body>
+</html>
