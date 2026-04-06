@@ -33,7 +33,10 @@
         bt.style.top = "50%"
         if (bt){
             bt.addEventListener('click',()=>{
-                area.innerHTML = "<a href=https://music.youtube.com/watch?v=St7iqIzml18&si=kgxyt3FCQLpuoDLp>https://music.youtube.com/watch?v=St7iqIzml18&si=kgxyt3FCQLpuoDLp</a>"
+                area.innerHTML = `
+                    <a href="https://music.youtube.com/watch?v=St7iqIzml18&si=kgxyt3FCQLpuoDLp"
+                    target="_blank">https://music.youtube.com/watch?v=St7iqIzml18&si=kgxyt3FCQLpuoDLp</a>"
+                    `
                 alert("咆哮の騎士を倒したクリスはじぶんの勇者として拝みまshow！ by テナ")
             })
         }
